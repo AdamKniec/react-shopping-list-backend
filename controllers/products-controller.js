@@ -9,5 +9,3 @@ const getAllProducts = async (req, res) => {
 };
 
 exports.getAllProducts = getAllProducts;
-
-// TODO - przeniesienie sekretow do enva
