@@ -16,3 +16,4 @@ app.use((req, res, next) => {
 app.use("/api/products", routes);
 
 app.listen(process.env.PORT || 8000);
+module.exports = app;
